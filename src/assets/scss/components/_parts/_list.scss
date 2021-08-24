@@ -1,0 +1,17 @@
+.table {
+    min-width: 550px;
+    background: white;
+    margin-top: 50px;
+    
+    &__head {
+        background: $blue-grey-light;
+    }
+
+    &__td {
+        padding: 5px;
+
+        &.--align-right {
+            text-align: right;
+        }
+    }
+}
